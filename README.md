@@ -1,21 +1,16 @@
-# woof - the Puppy builder
+# BlockyDog - the Puppy builder
 
 Currently supported:
 
 | Distro        | Version       | Architecture | Status   |
 | ------------- | ------------- | -------------| -------- |
-| Slackware     | 15.0          | x86_64, x86  | [![slackware-s15pup](https://github.com/puppylinux-woof-CE/woof-CE/actions/workflows/slackware-s15pup.yml/badge.svg)](https://github.com/puppylinux-woof-CE/woof-CE/actions/workflows/slackware-s15pup.yml) |
-| Ubuntu        | 24.04         | x86_64       | [![ubuntu-noble64](https://github.com/puppylinux-woof-CE/woof-CE/actions/workflows/ubuntu-noble64.yml/badge.svg)](https://github.com/puppylinux-woof-CE/woof-CE/actions/workflows/ubuntu-noble64.yml) |
-| Ubuntu        | 22.04         | x86_64       | [![ubuntu-jammy64](https://github.com/puppylinux-woof-CE/woof-CE/actions/workflows/ubuntu-jammy64.yml/badge.svg)](https://github.com/puppylinux-woof-CE/woof-CE/actions/workflows/ubuntu-jammy64.yml) |
-| Debian        | 12            | x86_64, x86  | [![debian-bookworm](https://github.com/puppylinux-woof-CE/woof-CE/actions/workflows/debian-bookworm.yml/badge.svg)](https://github.com/puppylinux-woof-CE/woof-CE/actions/workflows/debian-bookworm.yml) |
-| Devuan        | 5.0           | x86_64       | [![devuan-daedalus64](https://github.com/puppylinux-woof-CE/woof-CE/actions/workflows/devuan-daedalus64.yml/badge.svg)](https://github.com/puppylinux-woof-CE/woof-CE/actions/workflows/devuan-daedalus64.yml) |
-| Void          | -             | x86_64, x86  | [![void-voidpup](https://github.com/puppylinux-woof-CE/woof-CE/actions/workflows/void-voidpup.yml/badge.svg)](https://github.com/puppylinux-woof-CE/woof-CE/actions/workflows/void-voidpup.yml) |
+| Debian        | 12            | x86_64, x86  | [![debian-bookworm](https://github.com/puppylinux-woof-CE/woof-CE/actions/workflows/debian-bookworm.yml/badge.svg)](https://github.com/puppylinux-woof-CE/woof-CE/actions/workflows/debian-bookworm.yml) 
 <!--- | Debian        | Unstable      | x86_64       | [![debian-sid64](https://github.com/puppylinux-woof-CE/woof-CE/actions/workflows/debian-sid64.yml/badge.svg)](https://github.com/puppylinux-woof-CE/woof-CE/actions/workflows/debian-sid64.yml) | --->
 <!--- | Debian        | Testing       | x86_64       | [![debian-trixie](https://github.com/puppylinux-woof-CE/woof-CE/actions/workflows/debian-trixie.yml/badge.svg)](https://github.com/puppylinux-woof-CE/woof-CE/actions/workflows/debian-trixie.yml) | --->
 
 (Other build configurations might work but they are not built periodically)
 
-# Building a Puppy: using GitHub Actions
+# Building a BlockyPuppy: using GitHub Actions
 
 Puppy can be built directly on GitHub, saving the hassle of preparing a suitable build environment on a fast machine with adequate storage.
 
@@ -31,7 +26,7 @@ Puppy can be built directly on GitHub, saving the hassle of preparing a suitable
 
 5. Test your Puppy and open a pull request to woof-CE, if you want your changes to be officially incorporated into woof-CE.
 
-# Contributing to woof-CE: using the GitHub web editor
+# Contributing to BlockyPuppy-CE: using the GitHub web editor
 
 See [woof-CE Contributor 101](https://github.com/puppylinux-woof-CE/woof-CE/wiki/woof-CE-Contributor-101).
 
@@ -84,7 +79,7 @@ So, to get going with woof-CE, open a terminal and do this:
     ./merge2out
     cd ../woof-out_*
 
-# Building a Puppy: building the kernel
+# Building a BlockyPuppy: building the kernel
 
 This is an optional step that can be skipped if you wish to use a prebuilt kernel in your woof-CE build.
 
@@ -122,7 +117,7 @@ About 500MB drive space is required, but this may vary enormously depending on t
 
        ./2createpackages
 
-3. Build Puppy live-CD
+3. Build BlockyPuppy live-CD
 
        ./3builddistro
 
